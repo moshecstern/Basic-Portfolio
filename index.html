@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="portfolio.js"></script>
 
     <title>Moshes Portfolio</title>
     <!-- We link our html to the Bootstrap CDN
@@ -19,8 +21,9 @@
         </span>
         <div id="linksH">
             <a href="index.html"><i class="fas fa-home"></i>About</a>
-            <a href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
-            <a href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
+            <a href="Portfolio.html"><i class="far fa-images"></i>Full Portfolio</a>
+            <!-- <a id="contact" class="fas fa-envelope-square">Contact</a> -->
+            <!-- <button id="contact" class ="fas fa-envelope-square">Contact</button> -->
         </div>
     </header>
     <!-- 
@@ -33,7 +36,7 @@
         <article id="articleP">
             <h1>About me</h1>
             <hr>
-            <img id="profilePic" src="Assets/Images/profilepic.jpg">
+            <img id="profilePic" src="Assets/Images/profilepic2.JPG">
             <p> I was born in Jerusalem, Israel in 1994.
                 I moved to Philadelphia in 1996,
                 and from there to Milwaukee, St Louis,
@@ -46,6 +49,66 @@
                 this goes!</p>
         </article>
     </section>
+
+    <!--  next page -->
+
+    <div class="white-bg">
+        <!-- <div id="tableName"> -->
+          <h2>Some of my favorite projects!</h2>
+        <!-- </div> -->
+        <hr />
+        <table id="tableG">
+          <br>
+          <tbody>
+              <tr>
+                  <td>
+                    <div class="gallery">
+                      <a href=" https://moshecstern.github.io/project1/"target="_blank"><img class="picGM" src="Assets/Images/groupproject1.jpg"
+                          title="Click to go to Event Finder's website live"></a>
+                      <div class="projectName">
+                        <p>Event Finder</p>
+                        <a href="https://github.com/moshecstern/project1"target="_blank">The Code on GitHub</a>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="gallery">
+                        <a href="https://moshecstern.github.io/giphy/ " target="_blank"><img class="picGM" src="Assets/Images/giphy.png"
+                            title="Click to go to Giphy Project's website live" /></a>
+                        <div class="projectName">
+                          <p>Giphy Project</p>
+                          <a href="https://github.com/moshecstern/giphy" target="_blank">The Code on GitHub</a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+            <tr>
+              <td>
+                <div class="gallery">
+                  <a href="https://moshecstern.github.io/hangmanGame/"target="_blank"><img class="picGM" src="Assets/Images/hangman.jpg"
+                      title="Click to go to Batman Hangman's website live"></a>
+                  <div class="projectName">
+                    <p>Batman Hangman Game</p>
+                    <a href="https://github.com/moshecstern/hangmanGame"target="_blank">The Code on GitHub</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="gallery">
+                  <a href=" https://moshecstern.github.io/TriviaGame/" target="_blank"><img class="picGM" src="Assets/Images/superheroQuiz.jpg"
+                      title= "Click to go to Trivia Game's website live" /></a>
+                  <div class="projectName">
+                    <p>Trivia Game</p>
+                    <a href="https://github.com/moshecstern/TriviaGame" target="_blank">The Code on GitHub</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+
     <!-- 
     <aside id="asideP">
         Look at this side article!
